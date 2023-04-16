@@ -1,4 +1,4 @@
 #!/bin/sh
 
-echo Список файлов, которые можно удалить:
-find ../ -type f -name '*.*~' -not -path '*/.*'
+HOW_MANY_CMDs=10
+cat $HOME/.bash_history | tail -n $HOW_MANY_CMDs > my_hist_file
