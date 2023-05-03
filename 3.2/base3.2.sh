@@ -20,10 +20,10 @@ gpasswd -a $LAB_USER2 $LAB_GROUP2
 
 gpasswd -a $LAB_USER3 $LAB_GROUP2
 
-for USR in $LAB_USER1 $LAB_USER2 $LAB_USER3
+for LAB_USR in $LAB_USER1 $LAB_USER2 $LAB_USER3
 do
-	echo "Пользователь $USR:"
-	id $USR
+	echo "Пользователь $LAB_USR:"
+	id $LAB_USR
 done
 
 mkdir $LAB_DIR1 $LAB_DIR2

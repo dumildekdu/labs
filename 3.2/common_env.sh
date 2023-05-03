@@ -7,7 +7,7 @@ fi
 
 if [[ $# -ne 5 ]]; then
 	echo 'Неверный набор аргументов! Ожидается: '
-	echo "$0 " 'group1 group2 user1 user2 user3'
+	echo $0 group1 group2 user1 user2 user3
 	exit 1
 fi
 
